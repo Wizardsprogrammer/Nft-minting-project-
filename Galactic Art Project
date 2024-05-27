@@ -1,0 +1,52 @@
+```
+// NFTScript - "Galactic Art" Project
+
+// Import libraries
+import nftlib
+import blockchain
+
+// Define NFT metadata
+name: "Galactic Art Collection"
+description: "A limited edition series of 100 unique digital art pieces"
+image: "(link unavailable)"
+
+// Set minting parameters
+supply: 100
+price: 2.5 ETH
+royalty_percentage: 10
+
+// Define NFT attributes
+attribute name: "galactic_type"
+attribute description: "A description of the galactic entity"
+
+// Define NFT traits
+trait rare: 20
+trait uncommon: 30
+trait common: 50
+
+// Define NFT rarity tiers
+tier rare: 10
+tier uncommon: 20
+tier common: 70
+
+// Set blockchain settings
+blockchain: Ethereum
+network: Mainnet
+gas_limit: 200000
+
+// Define minting logic
+function mint(name, description, image, supply, price, royalty_percentage) {
+  // Create a new NFT token
+  token = nftlib.create_token(name, description, image)
+  
+  // Set NFT attributes and traits
+  token.set_attribute("galactic_type", "star")
+  token.set_trait("rare", 20)
+  
+  // Mint the NFT
+  blockchain.mint(token, supply, price, royalty_percentage)
+}
+
+// Call the mint function
+mint(name, description, image, supply, price, royalty_percentage)
+```￼Enter
