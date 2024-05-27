@@ -1,6 +1,4 @@
-:
-
-*Galactic Art Collection*
+Galactic Art Collection*
 
 A limited edition series of 100 unique digital art pieces, each representing a rare and exquisite galactic entity. This collection is a fusion of art and technology, utilizing blockchain technology to ensure scarcity, ownership, and provenance.
 
