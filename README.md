@@ -24,3 +24,7 @@ A limited edition series of 100 unique digital art pieces, each representing a r
 *Minting Logic:*
 
 The mint function creates a new NFT token with the specified attributes and traits, then mints it on the Ethereum blockchain.￼Enter
+
+
+Contact me now on telegram
+NECRIAN001
